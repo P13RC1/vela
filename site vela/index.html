@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Virtual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div id="logo">
+        <img src="imagens/logofds.PNG" alt="" width="250px">
+      </div>
+      <div id="imgfds1">
+        <img src="imagens/elementofds.PNG" alt="" width="100px">
+      </div>
+      <div id="imgfds2">
+        <img src="imagens/elemento2fds.PNG" alt="" width="100px">
+      </div>
+      <ul>
+        <li id="ho"><a href="#home" style="color: black;">Home</a></li>
+        <li id="pr"><a href="#produtos" style="color: black;">Produtos</a></li>
+        <li id="co"><a href="#contato" style="color: black;">Contato</a></li>
+        <li id="ca"><a href="#" id="carrinho" style="color: black;">Carrinho (0)</a></li>
+      </ul>
+  </header>
+  
+  <section id="home">
+    <div id="introducao">
+      <img src="imagens/vela style.jpg" alt="">
+    </div>
+  </section>
+  
+  <section id="produtos">
+    <h2 class="tituloProdutoG">Produtos</h2>
+    <div class="carrossel">
+      <div class="produto">
+        <img src="imagens/inverno.PNG" alt="Produto 1">
+        <h3>Produto 1</h3>
+        <p>R$ 100,00</p>
+        <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/outono.PNG" alt="Produto 2">
+        <h3>Produto 2</h3>
+        <p>R$ 200,00</p>
+        <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/primavera.PNG" alt="Produto 3">
+        <h3>Produto 3</h3>
+        <p>R$ 300,00</p>
+        <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+      </div>
+      <div class="produto">
+        <img src="imagens/verao.PNG" alt="Produto 3">
+        <h3>Produto 3</h3>
+        <p>R$ 300,00</p>
+        <button class="adicionar-carrinho">Adicionar ao carrinho</button>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Entre em contato conosco:</p>
+    <p>email@example.com</p>
+    <p>(11) 1234-5678</p>
+  </section>
+  
+  <div id="carrinho-modal" class="modal">
+    <h2>Carrinho de compras</h2>
+    <ul id="carrinho-lista"></ul>
+    <p id="total-carrinho"></p>
+    <button id="fechar-carrinho">Fechar</button>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
